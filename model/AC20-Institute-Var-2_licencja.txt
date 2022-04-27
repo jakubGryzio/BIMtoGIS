@@ -1,0 +1,11 @@
+https://www.ifcwiki.org/index.php?title=KIT_IFC_Examples
+
+These examples are made by the Institute for Applied Computer Science (IAI)
+at the Karlsruhe Institute of Technology (KIT), and are for unrestricted use.
+If you use these examples for publications, please provide the following source:
+
+"Institute for Automation and Applied Informatics (IAI) / Karlsruhe Institute of Technology (KIT)"
+
+or
+
+"Institut für Automation und angewandte Information / Karlsruher Institut für Technologie"
