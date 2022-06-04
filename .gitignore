@@ -1,1 +1,4 @@
-src/Loader/__pycahce__
+src/Loader/__pycache__
+src/Storage/__pycache__
+.idea/
+src/__pycache__
