@@ -1,2 +1,4 @@
 src/Loader/__pycache__
+*/__pycache__
+.idea/
 
