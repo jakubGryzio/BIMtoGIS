@@ -19,6 +19,7 @@ class Loader:
         writer = csv.writer(csv_file)
         for record in self.records:
             for key, value in self.create_ifc_object(record).items():
-                writer.writerow(["CREATE (:ifcID {"+f"id: '{key}', label: "+f"'{value['label']}', attributes: "+'"'+f"{value['attributes']}"+'"'+"})"])
+                query = "CREATE (:ifcID {{id: '{}', label: {}, attributes: "+'"{}"'+"}})"
+                writer.writerow([query.format(key, value['label'], value['attributes'])])
         csv_file.close()
 
