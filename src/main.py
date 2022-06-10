@@ -15,7 +15,6 @@ def import_ifc_object():
 
 def neo4j_handler():
     neo = Neo4jHandler()
-    neo.create_relationships()
 
 if __name__ == '__main__':
     neo4j_handler()
