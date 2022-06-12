@@ -1,4 +1,4 @@
-from src.Storage.Neo4jHandler import Neo4jHandler
+from Storage.Neo4jHandler import Neo4jHandler
 
 
 class SpatialRelationship(Neo4jHandler):

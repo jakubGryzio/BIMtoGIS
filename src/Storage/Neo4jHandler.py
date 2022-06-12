@@ -37,3 +37,7 @@ class Neo4jHandler:
         query = "MATCH (node {{label: '{}'}}) RETURN node.id, node.label, node.attributes LIMIT {}".format(label, limit)
         return self.session.run(query)
 
+    def select_node_by_id(self, id):
+        query = "MATCH (node {{id: '{}'}}) RETURN node.id, node.label, node.attributes".format(id)
+        return self.session.run(query)
+
